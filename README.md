@@ -15,7 +15,7 @@ http://developer.hatena.ne.jp/ja/documents/auth/apis/oauth
 See [example](example/) app.
 
 ```js
-var dialog = require('dialog');
+var dialog = require('electron').dialog;
 var CONSUMER = {
     key: '______',
     secret: '_______'

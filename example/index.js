@@ -1,11 +1,11 @@
 // LICENSE : MIT
 "use strict";
-var dialog = require('dialog');
+var dialog = require('electron').dialog;
 var CONSUMER = {
     key: 'elj9OpeplSmpfA==',
     secret: '1hqDhJ2BfB6kozd/nHeLIW7WC/Y='
 };
-var AuthenticationHatena = require("electron-authentication-hatena");
+var AuthenticationHatena = require("../lib/AuthenticationHatena");
 // http://developer.hatena.com/ja/documents/auth/apis/oauth/consumer
 var hatena = new AuthenticationHatena({
     key: CONSUMER.key,
